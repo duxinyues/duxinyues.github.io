@@ -1,3 +1,12 @@
+/*
+ * @Author: duxinyues yongyuan253015@gmail.com
+ * @Date: 2022-11-29 16:16:38
+ * @LastEditors: duxinyues yongyuan253015@gmail.com
+ * @LastEditTime: 2022-11-30 16:37:15
+ * @FilePath: \my-website\src\pages\index.js
+ * @Description: 
+ * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
+ */
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -20,7 +29,6 @@ function HomepageHeader() {
             to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link> */}
-          测试
         </div>
       </div>
     </header>
@@ -31,8 +39,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="我的文档">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

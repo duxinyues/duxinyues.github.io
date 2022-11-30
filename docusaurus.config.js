@@ -1,3 +1,12 @@
+/*
+ * @Author: duxinyues yongyuan253015@gmail.com
+ * @Date: 2022-11-29 16:16:38
+ * @LastEditors: duxinyues yongyuan253015@gmail.com
+ * @LastEditTime: 2022-11-30 16:39:05
+ * @FilePath: \my-website\docusaurus.config.js
+ * @Description: 
+ * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
+ */
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -6,9 +15,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '我的文档中心',
+  tagline: '汇集所有用过的技术文档',
+  url: 'http://47.108.65.133/',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
