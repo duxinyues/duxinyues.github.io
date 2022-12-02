@@ -2,7 +2,7 @@
  * @Author: duxinyues yongyuan253015@gmail.com
  * @Date: 2022-11-30 16:19:03
  * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-11-30 16:19:06
+ * @LastEditTime: 2022-11-30 22:27:02
  * @FilePath: \my-website\docs\electron\create-react-app创建Electron应用，打包.md
  * @Description: 
  * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
@@ -10,7 +10,9 @@
 首先是安装react：`npx create-react-app electron-react --template typescript`，这里我使用了Typescript，如果不习惯Typescript的同学，可以使用这个命令：`npx create-react-app electron-react`。
 
 这时候我们成功创建了一个react应用，然后切换到electron-cra目录下，然后执行npm start，先运行react应用，这个仅仅是为了体验一下自己创建的react应用。
+
 ![](https://img-blog.csdnimg.cn/ee762c50586f4a259173c1e3dcded849.png)
+
 这是react应用默认的页面。接下来开始安装Electron依赖：
 
 ```javascript
@@ -50,7 +52,9 @@ app.on("activate", function () {
 })
 ```
 在package.json中添加：`"main": "main.js",`。再执行命令：`yarn electron ./`运行electron应用，效果如图：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/615e571ba3fb452c8eaac5152cca50e2.png)
+
 合并一下react和electron的启动命令：`  "dev": "concurrently \"cross-env BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",`
 这是在开发环境的编译方式，在打包部署阶段就不能这样做了。
 
@@ -98,11 +102,15 @@ app.on("activate", function () {
 合并一下react和Electron的打包命令：`"package": "yarn build  && electron-builder"`
 
 然后执行命令：`npm run package`，在应用目录下会生成build和dist文件夹，build是react应用打包生成的，dist就是electron生成，里面含有electron的安装文件和应用本身的exe文件，例如：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/9c19f378d91448fcaabba7db05204d7c.png)
+
 duxin Setup 0.1.0.exe就是安装文件，只要点击就进入安装流程。
 
 在文件夹win-unpacked 中含有应用本身exe文件，点击就可以运行应用程序：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/fd33bae0eafa43c38f40f03ff0d4c49c.png)
+
 这时候打包出来的应用程序图标默认是electron的图标，我们可以在build选项里面设置对应平台的图标，以下是我设置的简单图标，直接使用了react的图标：
 
 ```javascript
@@ -190,13 +198,19 @@ module.exports = override(
 );
 ```
 现在对比一下前后两次打包react应用的大小，这是修改之前的：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/ffe5b5f2e6db4edaaf89ec12cf71d635.png)
+
 这其中.map文件占了大部分：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/58a153e660d24e7b8ed2f74c82ce9d20.png)
 
 修改配置之后的效果：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/06bb964e36ea4e6e8843bbaddf9a77d7.png)
+
 这时候就没有生成.map文件了：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/9017964486f34db3a640969d46339922.png)
 
 虽然这是react打包优化，没有说是electron打包优化。但是整个应用打包中也是包含了react的打包。做这样的优化，进一步缩短了整个应用的打包时间。后面再了解electron一些打包的优化。

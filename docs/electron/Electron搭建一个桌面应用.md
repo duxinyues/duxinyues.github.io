@@ -119,9 +119,11 @@ app.on("window-all-closed", () => {
 });
 ```
 
-执行命令：`yarn start`:
-效果如图：
+执行命令：`yarn start`:效果如图
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/651f11a1feee46bb8c8ef5ebdea0400e.png)
+
 
 在 Electron 内部已经集成了 nodejs，所以我们直接引入 electron 的模块即可。
 
