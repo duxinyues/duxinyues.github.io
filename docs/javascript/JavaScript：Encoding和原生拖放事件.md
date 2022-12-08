@@ -16,6 +16,7 @@ console.log(text);
 console.log('====================================');
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/1946bb8e312949beb88cff1831b0e395.png)
+
 其中f的UTF-8编码是0x66，十进制为102。
 
 编码器还有一个方法是encodeInto()方法，接收一个字符串和目标Unit8Array，返回一个对象，该对象含有read和writen属性，表示成功从源字符串中读取多少字符和向目标数组写入多少字符。如果空间不够，编码就会提前终止，比如：
@@ -31,7 +32,9 @@ console.log(fooResult); // {read: 3, written: 3}
 console.log(barArr);     // Uint8Array(2) [98, 97]
 console.log(barResult); // {read: 2, written: 2}
 ```
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/da048bf9a04f43358f590e7d6794cda4.png)
+
 ## 文本解码
 Encoding 提供了两种定型数组转换为字符串的方式：批量解码和流解码。
 
@@ -95,6 +98,8 @@ console.log("解码：",decoderText); // 解码：foo
 如果要设置图片或者链接禁止拖动，则直接在元素的draggable属性设置为false即可。
 
 效果如图：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/3483dee9ac534f5888b3a86a58066999.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/4ccd758a88764d32bdd32242802dd9e4.png)
+
 这样我们就可以在不同的事件中，编写对应的逻辑。
