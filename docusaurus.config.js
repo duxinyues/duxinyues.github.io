@@ -2,7 +2,7 @@
  * @Author: duxinyues yongyuan253015@gmail.com
  * @Date: 2022-11-29 16:16:38
  * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-11-30 16:39:05
+ * @LastEditTime: 2022-12-09 21:36:32
  * @FilePath: \my-website\docusaurus.config.js
  * @Description: 
  * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
@@ -22,7 +22,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
+  staticDirectories:['static'],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
