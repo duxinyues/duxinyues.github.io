@@ -1,12 +1,3 @@
-<!--
- * @Author: duxinyues yongyuan253015@gmail.com
- * @Date: 2022-12-09 22:28:28
- * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-12-09 22:59:24
- * @FilePath: \my-website\docs\javascript\JavaScript：错误处理.md
- * @Description: 
- * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
--->
 一个优秀的产品，需要有一个良好的错误处理策略可以让用户知道到底发生什么。不至于让用户自己不知道发生了什么，然后再重试或者是不至于然用户感到特别厌烦，然后直接离开。
 
 ## try/catch语句
