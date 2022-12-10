@@ -1,3 +1,12 @@
+<!--
+ * @Author: duxinyues yongyuan253015@gmail.com
+ * @Date: 2022-12-09 22:28:28
+ * @LastEditors: duxinyues yongyuan253015@gmail.com
+ * @LastEditTime: 2022-12-09 22:59:24
+ * @FilePath: \my-website\docs\javascript\JavaScript：错误处理.md
+ * @Description: 
+ * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
+-->
 一个优秀的产品，需要有一个良好的错误处理策略可以让用户知道到底发生什么。不至于让用户自己不知道发生了什么，然后再重试或者是不至于然用户感到特别厌烦，然后直接离开。
 
 ## try/catch语句
@@ -36,4 +45,30 @@ function test(){
 		return 0;
 	}
 }
+console.log(test()); // 0
 ```
+在这段代码中，如果去掉finally模块，则返回2；如果写上finally语句，就不管什么情况都会返回2，那么catch就是可选项了。
+
+总结：只要代码中包含了finally语句，那么try或者catch的return就会被忽略。
+
+## 错误类型
+代码在执行过程中，会发生各种各样的类型错误，每种类型都会对应一个错误发生时抛出的错误对象。
+
+有8中错误类型：
+1. Error，基类型，其他类错误类型都是继承基类型。所以所有的错误类型都共享相同的属性；
+2. internalError，在底层JavaScript引擎抛出异常的时候，由浏览器抛出的错误类型。例如递归过多导致栈溢出；
+3. EvalError，通常在eval函数发生异常的时候抛出。基本上，只要不把eval()当成函数调用就会报告该错误；
+4. RangeError，在数值越界时抛出，比如定义数组时，设置了不支持的长度，就会这个类型的错误；
+5. ReferenceError，在找不到对象的时候发生，这种错误经常是由访问不存在的变量而导致的；
+6. SyntaxError，SyntaxError经常在给eval()传入的字符串包含JavaScript语法错误时发生，比如：`eval("a ++ b"); // 抛出SyntaxError`；
+7. TypeError，JavaScript中很常见，主要发生在变量不是预期类型，或者访问不存在的方法时
+
+```javascript
+let o = new 1100 ; // TypeError
+console.log('name' in true) ; // TypeError
+Function.prototype.toString.call("name"); // TypeError
+```
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20227d3ef5324a9d904d112f351c694a.png)
+
+8. URIError，会在使用encodeURI()或decodeURI()但传入了格式错误的URI时发生
+
