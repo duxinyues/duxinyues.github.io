@@ -1,12 +1,3 @@
-/*
- * @Author: duxinyues yongyuan253015@gmail.com
- * @Date: 2022-11-29 16:16:38
- * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-12-09 21:36:32
- * @FilePath: \my-website\docusaurus.config.js
- * @Description: 
- * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
- */
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -15,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '我的文档中心',
-  tagline: '汇集所有用过的技术文档',
+  title: '读心悦',
+  tagline: '读心悦',
   url: 'http://47.108.65.133/',
-  baseUrl: '/blog/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  staticDirectories:['static'],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
@@ -43,6 +34,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,32 +52,67 @@ const config = {
       navbar: {
         title: '读心悦',
         logo: {
-          alt: 'My Site Logo',
+          alt: '读心悦',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'electron/Electron搭建一个桌面应用',
+            docId: 'electron/electron',
             position: 'left',
             label: '文档',
+          },
+          {
+            href: 'https://github.com/duxinyues/docusaurus',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: '文档',
-        //     items: [
-        //       {
-        //         label: '文档',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright © ${new Date().getFullYear()} 读心悦.`,
+        links: [
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/duxinyues/docusaurus',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} 读心悦, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
