@@ -1,4 +1,8 @@
-## Electron的窗口
+---
+sidebar_position: 2
+id: Electron：窗口、窗口标题和边框
+title: Electron：窗口、窗口标题和边框
+---
 桌面应用是由一个或者多个窗口组成的，Electron也是一样的，在上一章我们就通过Electron的BrowserWindow模块来创建一个主进程的窗口，如：
 
 ```javascript

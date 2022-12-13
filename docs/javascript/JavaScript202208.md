@@ -1,3 +1,8 @@
+---
+sidebar_position: 8
+id: JavaScript：DOM操作的性能优化
+title: JavaScript：DOM操作的性能优化
+---
 浏览器的重排和重绘是比较消耗性能的操作，所以网页性能优化的手段就是减少重排和重绘的操作。比如：
 
 ## 多次更改样式的操作合并为一次操作

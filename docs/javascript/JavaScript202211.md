@@ -1,3 +1,8 @@
+---
+sidebar_position: 11
+id: JavaScript：来一波Promise用法实例，可能是面试题吧
+title: JavaScript：来一波Promise用法实例，可能是面试题吧
+---
 对Promise有一定的了解后，但是在面对一些关于Promise的面试，还是感觉力不从心。现在整理一下Promise的使用场景：
 
 ###### 1、Promise和同步代码一起执行

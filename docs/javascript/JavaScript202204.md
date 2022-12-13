@@ -1,4 +1,8 @@
-
+---
+sidebar_position: 4
+id: JavaScript：Promise进阶知识
+title: JavaScript：Promise进阶知识
+---
 ## Promise
 Promise就是ES6新增的一个用于解决异步编程的方案。以前，我们在处理异步的时候，都是在回调函数内做处理的。比如Ajax请求，是在success属性里面做异步处理的，那么如果在一个请求中需要执行读个异步请求，第二个请求是依赖于第一个请求的结果，这样就导致代码嵌套很深，可读性差、很难维护并且难以复用。
 

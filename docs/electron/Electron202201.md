@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-date: 2021-09-13T10:00
+id: Electron：搭建一个桌面应用
+title: Electron：搭建一个桌面应用
 ---
 # Electron 搭建一个桌面应用
 

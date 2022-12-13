@@ -1,5 +1,8 @@
-@[toc]
-## 应用进程
+---
+sidebar_position: 4
+id: Electron：主进程、渲染进程以及通信
+title: Electron：主进程、渲染进程以及通信
+---
 Electron应用程序区分主进程和渲染进程。
 
 #### 主进程

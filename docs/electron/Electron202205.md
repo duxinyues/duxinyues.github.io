@@ -1,4 +1,8 @@
-## 系统菜单
+---
+sidebar_position: 5
+id: Electron：菜单
+title: Electron：菜单
+---
 Electron创建一个窗口，会默认具备系统菜单，例如：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/983a5ecbe8a7497794b06ad27cdd3f11.png)

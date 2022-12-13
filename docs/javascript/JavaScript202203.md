@@ -1,12 +1,8 @@
-<!--
- * @Author: duxinyues yongyuan253015@gmail.com
- * @Date: 2022-12-08 19:53:44
- * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-12-08 19:57:21
- * @FilePath: \my-website\docs\javascript\WebSocket基本使用方法.md
- * @Description: 
- * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
--->
+---
+sidebar_position: 3
+id: JavaScript：WebSocket基本使用方法
+title: JavaScript：WebSocket基本使用方法
+---
 WebSocket是一种双向、单套接字连接，使用WebSocket，那么请求就变成了打开WebSocket连接的单一请求，并且可以重用公客户端到服务器以及服务器到客户端的同一连接。
 
 WebSock减少延迟，一旦建立起WebSocket连接，服务器可以在消息可用的时候发送。这是轮询和WebSocket的比较。

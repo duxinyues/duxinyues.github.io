@@ -1,3 +1,8 @@
+---
+sidebar_position: 9
+id: JavaScript：Ajax
+title: JavaScript：Ajax
+---
 Ajax是前端好后端数据交互的方式，通过异步请求就可以在不需要刷新页面的情况下，达到局部刷新的效果。
 
 Ajax的原理就是通过XMLHttpRequest对象向服务器发送异步请求，获取数据后利用DOM操作来更新页面。

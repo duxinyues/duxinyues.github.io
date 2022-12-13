@@ -1,12 +1,8 @@
-<!--
- * @Author: duxinyues yongyuan253015@gmail.com
- * @Date: 2022-11-30 16:19:03
- * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-11-30 22:27:02
- * @FilePath: \my-website\docs\electron\create-react-app创建Electron应用，打包.md
- * @Description: 
- * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
--->
+---
+sidebar_position: 7
+id: create-react-app创建Electron应用，打包
+title: create-react-app创建Electron应用，打包
+---
 首先是安装react：`npx create-react-app electron-react --template typescript`，这里我使用了Typescript，如果不习惯Typescript的同学，可以使用这个命令：`npx create-react-app electron-react`。
 
 这时候我们成功创建了一个react应用，然后切换到electron-cra目录下，然后执行npm start，先运行react应用，这个仅仅是为了体验一下自己创建的react应用。
