@@ -37,8 +37,9 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/duxinyues/docusaurus',
-          showLastUpdateAuthor:true
+            'https://github.com/duxinyues/docusaurus/blob/main',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,17 +51,29 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Messiahhh/blog">GitHub</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      }, 
       navbar: {
         title: '读心悦',
         logo: {
           alt: '读心悦',
           src: 'img/logo.jpg',
         },
+        hideOnScroll: true,
         items: [
+          {
+            type: 'search',
+            position: 'right',
+          },
           {
             type: 'doc',
             docId: 'electron/electron',
-            position: 'left',
+            position: 'right',
             label: '文档',
           },
           {
@@ -70,51 +83,51 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/duxinyues/docusaurus',
-          //     },
-          //   ],
-          // },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} 读心悦, Inc. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   links: [
+      //     // {
+      //     //   title: 'Docs',
+      //     //   items: [
+      //     //     {
+      //     //       label: 'Tutorial',
+      //     //       to: '/docs/intro',
+      //     //     },
+      //     //   ],
+      //     // },
+      //     // {
+      //     //   title: 'Community',
+      //     //   items: [
+      //     //     {
+      //     //       label: 'Stack Overflow',
+      //     //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //     //     },
+      //     //     {
+      //     //       label: 'Discord',
+      //     //       href: 'https://discordapp.com/invite/docusaurus',
+      //     //     },
+      //     //     {
+      //     //       label: 'Twitter',
+      //     //       href: 'https://twitter.com/docusaurus',
+      //     //     },
+      //     //   ],
+      //     // },
+      //     // {
+      //     //   title: 'More',
+      //     //   items: [
+      //     //     {
+      //     //       label: 'Blog',
+      //     //       to: '/blog',
+      //     //     },
+      //     //     {
+      //     //       label: 'GitHub',
+      //     //       href: 'https://github.com/duxinyues/docusaurus',
+      //     //     },
+      //     //   ],
+      //     // },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} 读心悦, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
