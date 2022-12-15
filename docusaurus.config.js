@@ -53,7 +53,7 @@ const config = {
     ({
       announcementBar: {
         id: 'support_us',
-        content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Messiahhh/blog">GitHub</a>',
+        content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/duxinyues/docusaurus">GitHub</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
@@ -72,8 +72,8 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'electron/electron',
-            position: 'right',
+            docId: 'css/css',
+            position: 'left',
             label: '文档',
           },
           {
