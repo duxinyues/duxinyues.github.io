@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: Electron：搭建一个桌面应用
+id: electron
 title: Electron：搭建一个桌面应用
 ---
 # Electron 搭建一个桌面应用

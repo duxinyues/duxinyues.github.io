@@ -9,7 +9,7 @@ const config = {
   title: '读心悦',
   tagline: '读心悦',
   url: 'http://47.108.65.133/',
-  baseUrl: '/blog',
+  baseUrl: '/webBlog',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.jpg',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -33,13 +33,23 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          // sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/duxinyues/docusaurus/blob/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          
+        },
+        blog: {
+          blogTitle: '博客',
+          blogSidebarTitle: '全部博文',
+          blogSidebarCount: 'ALL',
+          showReadingTime: true,
+          editUrl:
+            'https://github.com/duxinyues/docusaurus/blob/main',
+          postsPerPage: 5
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,14 +77,15 @@ const config = {
         hideOnScroll: true,
         items: [
           {
-            type: 'search',
-            position: 'right',
-          },
-          {
             type: 'doc',
-            docId: 'css/css',
+            docId: 'electron/electron',
             position: 'left',
             label: '文档',
+          },
+          {
+            to: '/blog',
+            label: '博客',
+            position: 'left'
           },
           {
             href: 'https://github.com/duxinyues/docusaurus',

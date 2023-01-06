@@ -2,6 +2,8 @@
 sidebar_position: 0
 id: css
 title: CSS：border-image
+authors: duxinyues
+tags: [css]
 ---
 
 border-image属性对图像的规格和比例比较高，导致使用成本比较高。另外，常见的场景中，大家更倾向于扁平化而不是非拟物化，边框装饰通常在项目中不会出现。
