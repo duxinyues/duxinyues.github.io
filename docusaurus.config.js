@@ -57,7 +57,13 @@ const config = {
       }),
     ],
   ],
-
+  scripts: [
+    {
+      src:
+        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3022505615683714',
+      defer: true,
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
