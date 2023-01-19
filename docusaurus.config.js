@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '读心悦',
   tagline: '读心悦',
-  url: 'http://47.108.65.133/',
-  baseUrl: '/webBlog',
+  url: 'https://duxinyues.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.jpg',
