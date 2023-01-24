@@ -84,7 +84,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'electron/electron',
+            docId: 'react/react',
             position: 'left',
             label: '文档',
           },
