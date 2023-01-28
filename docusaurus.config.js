@@ -62,6 +62,7 @@ const config = {
       src:
         'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3022505615683714',
       defer: true,
+      crossorigin:"anonymous"
     },
   ],
   themeConfig:
@@ -74,6 +75,7 @@ const config = {
         textColor: '#091E42',
         isCloseable: true,
       }, 
+      metadata:[{name:"baidu-site-verification",content:"codeva-72M8DxG1za"}],
       navbar: {
         title: '读心悦',
         logo: {
