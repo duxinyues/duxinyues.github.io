@@ -26,7 +26,18 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'second-blog',
+        blogSidebarTitle: '近期随笔',
+        blogTitle: '记录生活',
+        routeBasePath: 'reading',
+        path: './reading',
+      },
+    ]
+  ],
   presets: [
     [
       'classic',
@@ -40,16 +51,18 @@ const config = {
             'https://github.com/duxinyues/docusaurus/blob/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          
+
         },
         blog: {
           blogTitle: '博客',
           blogSidebarTitle: '全部博文',
-          blogSidebarCount: 'ALL',
-          showReadingTime: true,
           editUrl:
             'https://github.com/duxinyues/docusaurus/blob/main',
-          postsPerPage: 5
+          postsPerPage: 5,
+          showReadingTime: true,
+          readingTime: ({ content, defaultReadingTime }) =>
+          defaultReadingTime({ content, options: { wordsPerMinute: 100 } }),
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,7 +75,7 @@ const config = {
       src:
         'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3022505615683714',
       defer: true,
-      crossorigin:"anonymous"
+      crossorigin: "anonymous"
     },
   ],
   themeConfig:
@@ -74,8 +87,12 @@ const config = {
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
-      }, 
-      metadata:[{name:"baidu-site-verification",content:"codeva-72M8DxG1za"}],
+      },
+      metadata: [{ name: "baidu-site-verification", content: "codeva-72M8DxG1za" },{
+        name: "keywords",
+        content:
+          "前端, react, javascript, css, react, vue, typescript, docusaurus, blog",
+      },],
       navbar: {
         title: '读心悦',
         logo: {
@@ -85,15 +102,26 @@ const config = {
         hideOnScroll: true,
         items: [
           {
-            type: 'doc',
-            docId: 'react/react',
+            type: "dropdown",
             position: 'left',
             label: '文档',
+            items: [
+              {
+                type: "doc",
+                label: "React源码",
+                docId: 'react/react',
+              },
+            ],
           },
           {
             to: '/blog',
             label: '博客',
             position: 'left'
+          },
+          {
+            to: '/reading',
+            label: '记录生活',
+            position: 'left',
           },
           {
             href: 'https://github.com/duxinyues/docusaurus',
