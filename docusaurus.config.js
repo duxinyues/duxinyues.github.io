@@ -7,13 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '读心悦',
-  tagline: '读心悦',
+  tagline: '记录学习，让每天过的慢一点。',
   url: 'https://duxinyues.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.jpg',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'duxinyues', // Usually your GitHub org/user name.
@@ -61,7 +60,7 @@ const config = {
           postsPerPage: 5,
           showReadingTime: true,
           readingTime: ({ content, defaultReadingTime }) =>
-          defaultReadingTime({ content, options: { wordsPerMinute: 100 } }),
+            defaultReadingTime({ content, options: { wordsPerMinute: 100 } }),
           blogSidebarCount: "ALL",
         },
         theme: {
@@ -88,11 +87,18 @@ const config = {
         textColor: '#091E42',
         isCloseable: true,
       },
-      metadata: [{ name: "baidu-site-verification", content: "codeva-72M8DxG1za" },{
+      metadata: [{ name: "baidu-site-verification", content: "codeva-72M8DxG1za" }, {
         name: "keywords",
         content:
-          "前端, react, javascript, css, react, vue, typescript, docusaurus, blog",
+          "前端, react, javascript, css, react, vue, typescript, 博客，阅读，悦读",
       },],
+      algolia: {
+        // Algolia 提供的应用 ID
+        appId: 'OR7KJFEBVO',
+        //  公开 API 密钥：提交它没有危险
+        apiKey: '777c8a624308b01b28c2167c8fc40bd9',
+        indexName: 'dx',
+      },
       navbar: {
         title: '读心悦',
         logo: {
@@ -101,6 +107,10 @@ const config = {
         },
         hideOnScroll: true,
         items: [
+          {
+            type: 'search',
+            position: 'right',
+          },
           {
             type: "dropdown",
             position: 'left',
