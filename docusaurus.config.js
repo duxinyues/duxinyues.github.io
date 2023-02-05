@@ -76,6 +76,12 @@ const config = {
       defer: true,
       crossorigin: "anonymous"
     },
+    {
+      src:
+        'https://hm.baidu.com/hm.js?50b9e8e9a502f012d28415b01c086e3d',
+      defer: true,
+      crossorigin: "anonymous"
+    },
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
