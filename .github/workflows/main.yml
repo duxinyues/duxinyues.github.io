@@ -26,8 +26,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.GH_PAGES_DEPLOY }}
-          github_token: ${{secrets.DUXINYUES}}
+          deploy_key: ${{ secrets.tokeKey }}
+          github_token: ${{secrets.GITHUB_TOKEN}}
           publish_dir: ./build
           user_name: duxinyues
           user_email: yongyuan253015@gmail.com
