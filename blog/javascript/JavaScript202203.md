@@ -2,6 +2,8 @@
 sidebar_position: 3
 id: JavaScript：WebSocket基本使用方法
 title: JavaScript：WebSocket基本使用方法
+authors: duxinyues
+tags: [JavaScript]
 ---
 WebSocket是一种双向、单套接字连接，使用WebSocket，那么请求就变成了打开WebSocket连接的单一请求，并且可以重用公客户端到服务器以及服务器到客户端的同一连接。
 

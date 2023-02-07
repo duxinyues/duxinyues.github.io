@@ -2,6 +2,8 @@
 sidebar_position: 10
 id: JavaScript：文档加载事件和浏览器的重排、重绘
 title: JavaScript：文档加载事件和浏览器的重排、重绘
+authors: duxinyues
+tags: [JavaScript]
 ---
 很多时候需要在页面初始化阶段执行一些特定的操作，页面初始化的操作就是文档加载完成后的执行的操作。在DOM中，文档加载完成有两个事件，一个load事件，另一个是jQuery提供的ready事件。
 

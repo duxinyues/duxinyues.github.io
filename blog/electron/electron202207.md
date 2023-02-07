@@ -2,6 +2,8 @@
 sidebar_position: 7
 id: create-react-app创建Electron应用，打包
 title: create-react-app创建Electron应用，打包
+authors: duxinyues
+tags: [Electron]
 ---
 首先是安装react：`npx create-react-app electron-react --template typescript`，这里我使用了Typescript，如果不习惯Typescript的同学，可以使用这个命令：`npx create-react-app electron-react`。
 

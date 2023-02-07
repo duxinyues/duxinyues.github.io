@@ -2,6 +2,8 @@
 sidebar_position: 2
 id: JavaScript：客户端存储
 title: JavaScript：客户端存储
+authors: duxinyues
+tags: [JavaScript]
 ---
 ## cookie
 用于客户端存储会话信息。在浏览器中会对cookie做一些限制：

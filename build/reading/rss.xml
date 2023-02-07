@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>读心悦 Blog</title>
+        <link>https://duxinyues.github.io/reading</link>
+        <description>读心悦 Blog</description>
+        <lastBuildDate>Sat, 04 Feb 2023 10:25:03 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[《数字化生存》]]></title>
+            <link>https://duxinyues.github.io/reading/digitalSurvival</link>
+            <guid>https://duxinyues.github.io/reading/digitalSurvival</guid>
+            <pubDate>Sat, 04 Feb 2023 10:25:03 GMT</pubDate>
+            <description><![CDATA[阅读中...]]></description>
+            <content:encoded><![CDATA[<p>阅读中...</p>]]></content:encoded>
+            <author>yongyuan253015@gmail.com (读心悦)</author>
+            <category>悦读</category>
+        </item>
+    </channel>
+</rss>

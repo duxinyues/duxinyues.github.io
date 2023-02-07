@@ -2,10 +2,13 @@
 sidebar_position: 0
 id: JavaScript：错误处理
 title: JavaScript：错误处理
+authors: duxinyues
+tags: [JavaScript]
 ---
 一个优秀的产品，需要有一个良好的错误处理策略可以让用户知道到底发生什么。不至于让用户自己不知道发生了什么，然后再重试或者是不至于然用户感到特别厌烦，然后直接离开。
 
 ## try/catch语句
+
 try/catch语句，在JavaScript中作为处理异常的一种方式，基本语句如下：
 
 ```javascript

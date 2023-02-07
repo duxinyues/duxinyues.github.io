@@ -2,6 +2,8 @@
 sidebar_position: 7
 id: JavaScript：Encoding和原生拖放事件
 title: JavaScript：Encoding和原生拖放事件
+authors: duxinyues
+tags: [JavaScript]
 ---
 Encoding 是用于实现字符串和定型数组之间的转换，有四个用于执行转换的全局类：TextEncoder、TextEncoderStream、TextDecoder和TextDecoderStream。
 

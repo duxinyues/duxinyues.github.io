@@ -2,6 +2,8 @@
 sidebar_position: 6
 id: JavaScript：Fetch
 title: JavaScript：Fetch
+authors: duxinyues
+tags: [JavaScript]
 ---
 
 fetch能够执行XMLHttpRequest对象的所有任务，接口更加现代化。XMLHttpRequest可以选择异步，而fetch必须是异步的。

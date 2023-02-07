@@ -2,6 +2,8 @@
 sidebar_position: 4
 id: Electron：主进程、渲染进程以及通信
 title: Electron：主进程、渲染进程以及通信
+authors: duxinyues
+tags: [Electron]
 ---
 Electron应用程序区分主进程和渲染进程。
 

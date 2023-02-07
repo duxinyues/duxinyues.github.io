@@ -2,6 +2,8 @@
 sidebar_position: 5
 id: Electron：菜单
 title: Electron：菜单
+authors: duxinyues
+tags: [Electron]
 ---
 Electron创建一个窗口，会默认具备系统菜单，例如：
 

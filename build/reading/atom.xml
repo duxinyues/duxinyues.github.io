@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://duxinyues.github.io/reading</id>
+    <title>读心悦 Blog</title>
+    <updated>2023-02-04T10:25:03.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://duxinyues.github.io/reading"/>
+    <subtitle>读心悦 Blog</subtitle>
+    <icon>https://duxinyues.github.io/img/logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[《数字化生存》]]></title>
+        <id>https://duxinyues.github.io/reading/digitalSurvival</id>
+        <link href="https://duxinyues.github.io/reading/digitalSurvival"/>
+        <updated>2023-02-04T10:25:03.000Z</updated>
+        <summary type="html"><![CDATA[阅读中...]]></summary>
+        <content type="html"><![CDATA[<p>阅读中...</p>]]></content>
+        <author>
+            <name>读心悦</name>
+            <email>yongyuan253015@gmail.com</email>
+            <uri>https://github.com/duxinyues/</uri>
+        </author>
+        <category label="悦读" term="悦读"/>
+    </entry>
+</feed>

@@ -2,6 +2,8 @@
 sidebar_position: 5
 id: JavaScript：File API和Blob API
 title: JavaScript：File API和Blob API
+authors: duxinyues
+tags: [JavaScript]
 ---
 web应用的痛点就是不能操作计算机上的文件。File API和Blob API可以安全访问到客户端上的文件。
 

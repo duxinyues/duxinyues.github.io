@@ -2,6 +2,8 @@
 sidebar_position: 3
 id: Electron：BrowserView使用方法
 title: Electron：BrowserView使用方法
+authors: duxinyues
+tags: [Electron]
 ---
 我们知道，使用BrowserWindow来创建一个新的窗口，那么如果想在窗口中战胜斯更多的web内容，比如嵌入其他网站的内容，那就使用BrowserView了。
 

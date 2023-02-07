@@ -96,7 +96,7 @@ const config = {
       metadata: [{ name: "baidu-site-verification", content: "codeva-72M8DxG1za" }, {
         name: "keywords",
         content:
-          "前端, react, javascript, css, react, vue, typescript, 博客，阅读，悦读",
+          "前端, react, javascript, css, react, vue, typescript, 博客，阅读，悦读,读心悦",
       },],
       algolia: {
         // Algolia 提供的应用 ID
@@ -104,6 +104,7 @@ const config = {
         //  公开 API 密钥：提交它没有危险
         apiKey: '777c8a624308b01b28c2167c8fc40bd9',
         indexName: 'dx',
+        contextualSearch: true,
       },
       navbar: {
         title: '读心悦',
