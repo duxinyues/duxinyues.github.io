@@ -5,3 +5,4 @@ title: 迭代与流程控制
 authors: duxinyues
 tags: [JavaScript]
 ---
+ES6
