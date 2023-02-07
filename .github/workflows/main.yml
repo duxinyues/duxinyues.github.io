@@ -30,6 +30,7 @@ jobs:
           publish_dir: ./build
           user_name: duxinyues
           user_email: yongyuan253015@gmail.com
+      - name: Deploy to GitHub Pages
         env:
           USE_SSH: true
         run: |
