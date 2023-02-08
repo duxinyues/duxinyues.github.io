@@ -439,12 +439,12 @@ argumentsList：目标函数调用时传入的参数列表，是一个类数组�
         <category label="JavaScript" term="JavaScript"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[迭代与流程控制]]></title>
+        <title type="html"><![CDATA[JavaScript：迭代与流程控制]]></title>
         <id>https://duxinyues.github.io/blog/javascript/javascript202304</id>
         <link href="https://duxinyues.github.io/blog/javascript/javascript202304"/>
         <updated>2023-02-08T08:38:11.000Z</updated>
-        <summary type="html"><![CDATA[ES6,测试赛]]></summary>
-        <content type="html"><![CDATA[<p>ES6,测试赛</p>]]></content>
+        <summary type="html"><![CDATA[Promise]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="promise">Promise<a href="#promise" class="hash-link" aria-label="Promise的直接链接" title="Promise的直接链接">​</a></h2><p>Promise是一种控制异步代码的方式。</p>]]></content>
         <author>
             <name>读心悦</name>
             <email>yongyuan253015@gmail.com</email>
