@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9985],{7489:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/electron","page":1,"postsPerPage":5,"totalPages":2,"totalCount":7,"nextPage":"/blog/tags/electron/page/2","blogDescription":"Blog","blogTitle":"\u535a\u5ba2"}')}}]);
