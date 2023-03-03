@@ -4,8 +4,8 @@
   <ShortName>读心悦</ShortName>
   <Description>Search 读心悦</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">http://47.108.65.133/./vue/img/logo.jpg</Image>
-  <Url type="text/html" method="get" template="http://47.108.65.133/./vue/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="http://47.108.65.133/./vue/opensearch.xml" />
-  <moz:SearchForm>http://47.108.65.133/./vue/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://duxinyues.github.io/img/logo.jpg</Image>
+  <Url type="text/html" method="get" template="https://duxinyues.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://duxinyues.github.io/opensearch.xml" />
+  <moz:SearchForm>https://duxinyues.github.io/</moz:SearchForm>
 </OpenSearchDescription>

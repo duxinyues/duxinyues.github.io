@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>读心悦 Blog</title>
-        <link>http://47.108.65.133/./vue/reading</link>
+        <link>https://duxinyues.github.io/reading</link>
         <description>读心悦 Blog</description>
         <lastBuildDate>Sun, 19 Feb 2023 14:01:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[《JavaScript百炼成仙》]]></title>
-            <link>http://47.108.65.133/./vue/reading/JavaScript</link>
-            <guid>http://47.108.65.133/./vue/reading/JavaScript</guid>
+            <link>https://duxinyues.github.io/reading/JavaScript</link>
+            <guid>https://duxinyues.github.io/reading/JavaScript</guid>
             <pubDate>Sun, 19 Feb 2023 14:01:20 GMT</pubDate>
             <description><![CDATA[<!--]]></description>
             <content:encoded><![CDATA[<p><strong>编程之修，重在积累，而非资质。资质虽然重要，可是后天的努力更不可少</strong>。</p><p>《JavaScript百炼成仙》是一本以玄幻小说的形式，来讲述JavaScript的知识。</p><p>此篇仅仅是我快速阅读《JavaScript百炼成仙》这本书的笔记，流水账笔记，望君一阅！</p><p>小说的主角为叶小凡【叶小凡，这个名字有点熟悉，也就是玄幻小说中常见主角的名字】，叶小凡是乐阳村中唯一一个具备修行JavaScript的甲等资质的孩子，于是就被送到千鹤派修炼JavaScript。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="javascript基础修炼要诀">《JavaScript基础修炼要诀》<a href="#javascript基础修炼要诀" class="hash-link" aria-label="《JavaScript基础修炼要诀》的直接链接" title="《JavaScript基础修炼要诀》的直接链接">​</a></h2><p>JavaScript是一种神奇的功法，修炼成以后，可以翻山倒海，足以称霸一方天地。</p><p>叶小凡来到千鹤派的青山院，得到一卷功法《JavaScript基础修炼要诀》</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="变量和字面量">变量和字面量<a href="#变量和字面量" class="hash-link" aria-label="变量和字面量的直接链接" title="变量和字面量的直接链接">​</a></h3><p>《JavaScript基础修炼要诀》第一章：直接量，也就是我们常说的字面量，比如数字
@@ -24,8 +24,8 @@ undefined，表示一个变量未定义。</p><p>引用数据类型object，是�
         </item>
         <item>
             <title><![CDATA[《数字化生存》]]></title>
-            <link>http://47.108.65.133/./vue/reading/digitalSurvival</link>
-            <guid>http://47.108.65.133/./vue/reading/digitalSurvival</guid>
+            <link>https://duxinyues.github.io/reading/digitalSurvival</link>
+            <guid>https://duxinyues.github.io/reading/digitalSurvival</guid>
             <pubDate>Wed, 08 Feb 2023 08:38:11 GMT</pubDate>
             <description><![CDATA[阅读中...]]></description>
             <content:encoded><![CDATA[<p>阅读中...</p>]]></content:encoded>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7115],{6150:e=>{e.exports=JSON.parse('{"label":"\u60a6\u8bfb","permalink":"/./vue/reading/tags/\u60a6\u8bfb","allTagsPath":"/./vue/reading/tags","count":2}')}}]);
