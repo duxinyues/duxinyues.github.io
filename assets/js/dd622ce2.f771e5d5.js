@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[331],{4825:e=>{e.exports=JSON.parse('[{"label":"JavaScript","permalink":"/./vue/tags/java-script","count":16},{"label":"css","permalink":"/./vue/tags/css","count":3},{"label":"Electron","permalink":"/./vue/tags/electron","count":7}]')}}]);
