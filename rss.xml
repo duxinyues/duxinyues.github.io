@@ -9,9 +9,9 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[webpack知识图]]></title>
-            <link>https://duxinyues.github.io/webpack知识图</link>
-            <guid>https://duxinyues.github.io/webpack知识图</guid>
+            <title><![CDATA[webpack基本配置]]></title>
+            <link>https://duxinyues.github.io/webpack基本配置</link>
+            <guid>https://duxinyues.github.io/webpack基本配置</guid>
             <pubDate>Wed, 05 Jul 2023 05:37:52 GMT</pubDate>
             <description><![CDATA[现在的前端，出现很多种可以提高开发效率的工具和框架，但是源码却不能直接运行，只有通过转换之后才能正常运行。]]></description>
             <content:encoded><![CDATA[<p>现在的前端，出现很多种可以提高开发效率的工具和框架，但是源码却不能直接运行，只有通过转换之后才能正常运行。</p><p>那么构建就是把源码转化为可以执行的JavaScript、HTML和CSS代码。</p><p>构建包含：</p><ol><li>代码转换【比如typescript编译为JavaScript，scss编译为CSS】；</li><li>文件优化，比如压缩JavaScript，压缩合成图片；</li><li>代码分割，提取公共代码，提取首页不需要执行的代码让它异步加载；</li><li>模块合并，把模块分类合并成一个文件；</li><li>自动刷新，监听本地源码的变化，自动重新构建、刷新浏览器；</li><li>代码校验</li><li>自动发布。</li></ol><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="基础">基础<a href="#基础" class="hash-link" aria-label="基础的直接链接" title="基础的直接链接">​</a></h2><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="webpack">webpack<a href="#webpack" class="hash-link" aria-label="webpack的直接链接" title="webpack的直接链接">​</a></h3><p>webpack是一个打包模块化JavaScript的工具，通过loader转换文件，通过Plugin注入钩子，最后输出文件。</p><p>webpack专注于构建模块化项目。优点是：</p><ol><li>能做到开箱即用，一步到位；</li><li>通过Plugin扩展，灵活</li><li>使用的场景广泛</li><li>社区活跃，可以找到很多场景下的开源扩展</li><li>有良好的体验</li></ol><p>webpack也有缺点，就是只能用于采用模块化开发的项目。</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="webpack配置">webpack配置<a href="#webpack配置" class="hash-link" aria-label="webpack配置的直接链接" title="webpack配置的直接链接">​</a></h3><p>1、 首先安装webpack和webpack-cli；
