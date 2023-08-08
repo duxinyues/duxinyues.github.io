@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://duxinyues.github.io/</id>
     <title>读心悦 Blog</title>
-    <updated>2023-07-08T15:55:21.000Z</updated>
+    <updated>2023-08-08T16:35:30.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://duxinyues.github.io/"/>
     <subtitle>读心悦 Blog</subtitle>
     <icon>https://duxinyues.github.io/img/logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[前端性能]]></title>
+        <id>https://duxinyues.github.io/前端性能</id>
+        <link href="https://duxinyues.github.io/前端性能"/>
+        <updated>2023-08-08T16:35:30.000Z</updated>
+        <summary type="html"><![CDATA[对于性能来说，需要一个度量，否则无法优化性能。比如常见的度量方式就是在DevTools的NetWork面板上，查阅到每一个文件的加载时间、DOM的加载的时间；可以观察到由白屏到显示内容的过程。]]></summary>
+        <content type="html"><![CDATA[<p>对于性能来说，需要一个度量，否则无法优化性能。比如常见的度量方式就是在DevTools的NetWork面板上，查阅到每一个文件的加载时间、DOM的加载的时间；可以观察到由白屏到显示内容的过程。</p><p>度量的方式有很多种，</p><p>前端性能指标：</p><ol><li>网络、浏览器、构建工具、跨端技术和CDN的角度来进行性能优化</li></ol><p><img loading="lazy" alt="在这里插入图片描述" src="/assets/images/event3-373c94b48b8b943ddd09363c34ae0227.png" width="543" height="825" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>读心悦</name>
+            <email>yongyuan253015@gmail.com</email>
+            <uri>https://github.com/duxinyues/</uri>
+        </author>
+        <category label="前端性能" term="前端性能"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[babel]]></title>
         <id>https://duxinyues.github.io/babel</id>

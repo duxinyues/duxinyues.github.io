@@ -4,10 +4,20 @@
         <title>读心悦 Blog</title>
         <link>https://duxinyues.github.io/</link>
         <description>读心悦 Blog</description>
-        <lastBuildDate>Sat, 08 Jul 2023 15:55:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Aug 2023 16:35:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[前端性能]]></title>
+            <link>https://duxinyues.github.io/前端性能</link>
+            <guid>https://duxinyues.github.io/前端性能</guid>
+            <pubDate>Tue, 08 Aug 2023 16:35:30 GMT</pubDate>
+            <description><![CDATA[对于性能来说，需要一个度量，否则无法优化性能。比如常见的度量方式就是在DevTools的NetWork面板上，查阅到每一个文件的加载时间、DOM的加载的时间；可以观察到由白屏到显示内容的过程。]]></description>
+            <content:encoded><![CDATA[<p>对于性能来说，需要一个度量，否则无法优化性能。比如常见的度量方式就是在DevTools的NetWork面板上，查阅到每一个文件的加载时间、DOM的加载的时间；可以观察到由白屏到显示内容的过程。</p><p>度量的方式有很多种，</p><p>前端性能指标：</p><ol><li>网络、浏览器、构建工具、跨端技术和CDN的角度来进行性能优化</li></ol><p><img loading="lazy" alt="在这里插入图片描述" src="/assets/images/event3-373c94b48b8b943ddd09363c34ae0227.png" width="543" height="825" class="img_ev3q"></p>]]></content:encoded>
+            <author>yongyuan253015@gmail.com (读心悦)</author>
+            <category>前端性能</category>
+        </item>
         <item>
             <title><![CDATA[babel]]></title>
             <link>https://duxinyues.github.io/babel</link>
