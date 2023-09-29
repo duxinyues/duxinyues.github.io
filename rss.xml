@@ -4,7 +4,7 @@
         <title>读心悦 Blog</title>
         <link>https://duxinyues.github.io/</link>
         <description>读心悦 Blog</description>
-        <lastBuildDate>Sat, 02 Sep 2023 04:21:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Sep 2023 13:28:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[CSS3：动画、变换和渐变]]></title>
             <link>https://duxinyues.github.io/CSS3：动画、变换和渐变</link>
             <guid>https://duxinyues.github.io/CSS3：动画、变换和渐变</guid>
-            <pubDate>Sat, 02 Sep 2023 04:21:31 GMT</pubDate>
+            <pubDate>Sat, 02 Sep 2023 13:28:13 GMT</pubDate>
             <description><![CDATA[<!--]]></description>
             <content:encoded><![CDATA[<p>CSS3常用的新功能包括圆角、阴渐变、2D变换、3D旋转、动画、viewpor和媒体查询。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="圆角阴影">圆角、阴影<a href="#圆角阴影" class="hash-link" aria-label="圆角、阴影的直接链接" title="圆角、阴影的直接链接">​</a></h2><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="border-redius">border-redius<a href="#border-redius" class="hash-link" aria-label="border-redius的直接链接" title="border-redius的直接链接">​</a></h3><p>对一个元素实现圆角效果，是通过border-redius完成的。属性为两种方式：</p><ol><li>一个属性值，表示设置所有四个角的半径为相同值；</li><li>对四个角分别设置，属性值的顺序为：左上角、右上角、右下角和左下角。</li></ol><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="box-shadow">box-shadow<a href="#box-shadow" class="hash-link" aria-label="box-shadow的直接链接" title="box-shadow的直接链接">​</a></h3><p>box-shadow属性值为：h-shadow v-shadow blur spread color inset。</p><p>h-shadow：水平阴影的位置，必选项；
 v-shadow:  垂直阴影的位置，必选项；
