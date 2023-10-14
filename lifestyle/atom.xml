@@ -12,7 +12,13 @@
         <id>https://duxinyues.github.io/lifestyle/index</id>
         <link href="https://duxinyues.github.io/lifestyle/index"/>
         <updated>2023-10-14T05:30:45.000Z</updated>
-        <summary type="html"><![CDATA[<!--]]></summary>
-        <content type="html"><![CDATA[<p>测试</p>]]></content>
+        <summary type="html"><![CDATA[{]]></summary>
+        <content type="html"><![CDATA[<p>{
+"label": "React",
+"position": 0,
+"link": {
+"type": "generated-index"
+}
+}</p>]]></content>
     </entry>
 </feed>
