@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>读心悦 Blog</title>
+        <link>https://duxinyues.github.io/lifestyle</link>
+        <description>读心悦 Blog</description>
+        <lastBuildDate>Sat, 14 Oct 2023 05:30:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[index]]></title>
+            <link>https://duxinyues.github.io/lifestyle/index</link>
+            <guid>https://duxinyues.github.io/lifestyle/index</guid>
+            <pubDate>Sat, 14 Oct 2023 05:30:45 GMT</pubDate>
+            <description><![CDATA[<!--]]></description>
+            <content:encoded><![CDATA[<p>测试</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://duxinyues.github.io/java</id>
+    <title>读心悦 Blog</title>
+    <updated>2023-10-14T05:30:45.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://duxinyues.github.io/java"/>
+    <subtitle>读心悦 Blog</subtitle>
+    <icon>https://duxinyues.github.io/img/logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[java]]></title>
+        <id>https://duxinyues.github.io/java/java</id>
+        <link href="https://duxinyues.github.io/java/java"/>
+        <updated>2023-10-14T05:30:45.000Z</updated>
+        <summary type="html"><![CDATA[<!--]]></summary>
+        <content type="html"><![CDATA[<p>测试</p>]]></content>
+    </entry>
+</feed>
