@@ -8,11 +8,11 @@
     <subtitle>读心悦 Blog</subtitle>
     <icon>https://duxinyues.github.io/img/logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[java]]></title>
-        <id>https://duxinyues.github.io/java/java</id>
-        <link href="https://duxinyues.github.io/java/java"/>
+        <title type="html"><![CDATA[Java基础]]></title>
+        <id>https://duxinyues.github.io/java/Java基础</id>
+        <link href="https://duxinyues.github.io/java/Java基础"/>
         <updated>2023-10-14T05:30:45.000Z</updated>
         <summary type="html"><![CDATA[<!--]]></summary>
-        <content type="html"><![CDATA[<p>测试</p>]]></content>
+        <category label="Java" term="Java"/>
     </entry>
 </feed>
