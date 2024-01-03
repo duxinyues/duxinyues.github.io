@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3261],{7893:e=>{e.exports=JSON.parse('{"title":"Java\u57fa\u7840","items":[{"title":"Java\u57fa\u7840","permalink":"/java/Java\u57fa\u7840"},{"title":"index","permalink":"/java/index"}]}')}}]);

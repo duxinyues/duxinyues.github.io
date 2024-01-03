@@ -13,14 +13,8 @@
             <link>https://duxinyues.github.io/lifestyle/index</link>
             <guid>https://duxinyues.github.io/lifestyle/index</guid>
             <pubDate>Sat, 14 Oct 2023 05:30:45 GMT</pubDate>
-            <description><![CDATA[{]]></description>
-            <content:encoded><![CDATA[<p>{
-"label": "React",
-"position": 0,
-"link": {
-"type": "generated-index"
-}
-}</p>]]></content:encoded>
+            <description><![CDATA[<!--]]></description>
+            <content:encoded><![CDATA[<p>活着</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
